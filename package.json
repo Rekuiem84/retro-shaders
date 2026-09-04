@@ -1,0 +1,23 @@
+{
+	"name": "threejs-project",
+	"private": true,
+	"version": "0.0.0",
+	"type": "module",
+	"scripts": {
+		"dev": "vite",
+		"build": "vite build"
+	},
+	"devDependencies": {
+		"vite": "^7.3.6",
+		"vite-plugin-glsl": "^1.6.1",
+		"vite-plugin-restart": "^2.0.0"
+	},
+	"dependencies": {
+		"lil-gui": "^0.21.0",
+		"three": "^0.185.1"
+	},
+	"allowScripts": {
+		"fsevents@2.3.3": true,
+		"esbuild@0.28.2": true
+	}
+}
