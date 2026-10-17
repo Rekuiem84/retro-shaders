@@ -10,6 +10,16 @@
 
 <body>
     <canvas class="webgl"></canvas>
+
+    <nav class="selector" aria-label="Choix de la scène">
+        <button type="button" class="selector__button" id="previous" aria-label="Scène précédente">‹</button>
+        <div class="selector__center">
+            <div class="selector__title" id="title" aria-live="polite"></div>
+            <div class="selector__dots" id="dots"></div>
+        </div>
+        <button type="button" class="selector__button" id="next" aria-label="Scène suivante">›</button>
+    </nav>
+
     <script type="module" src="./script.js"></script>
 </body>
 
