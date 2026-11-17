@@ -871,8 +871,6 @@ directionalLight.position.set(0.25, 2, -2.25);
 scene.add(directionalLight);
 
 modelScaleFolder.close();
-cameraFolder.close();
-retroFolder.close();
 
 /**
  * Animate
